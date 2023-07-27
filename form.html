@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <h1>Формы</h1>
+    <p>action - кто обрабатывает </p>
+    <form action="">
+        <div>
+            <label for="text2">Текст</label>
+            <input type="text" id="text2" value="Тут должен быть текст" readonly>
+        </div>
+        
+        <div>
+            <label for="email2">email</label>
+            <input type="email" id="email2" placeholder="Введите мыло">
+        </div>
+        <div>
+            <label for="password2">Пароль</label>
+            <input type="password" id="password2">
+        </div>
+        <div>
+            <label for="number2">Номер</label>
+            <input type="number" id="number2" min="0">
+        </div>
+        <div>
+            <label for="range2">Ранг с ползунком</label>
+            <input type="range" id="range2" min="0" max="10" step="2">
+        </div>
+        <div>
+            <label for="date2">Дата</label>
+            <input type="date" id="date2">
+        </div>
+        <div>
+            <label for="color2">Цвет</label>
+            <input type="color" id="color">
+        </div>
+        <div>
+            <label for="message">Сообщение textarea</label><br>
+            <textarea name="" id="message" cols="15" rows="3"></textarea>
+        </div>
+        <div>
+            <label for="sex">Выбор</label>
+            <select id="sex">
+                <option value="M">Муж</option>
+                <option value="F" selected>Жен</option>
+            </select>
+        </div>
+        <div>
+            <label for="color2">Один выбор</label>
+            <input type="radio" name="work">1 
+            <input type="radio" name="work">5
+            <input type="radio" name="work">10
+            <input type="radio" name="work">10+
+        </div>
+        <div>
+            <label for="color2">Множественный выбор</label>
+            <input type="checkbox" name="works">1 
+            <input type="checkbox" name="works">5
+            <input type="checkbox" name="works">10
+            <input type="checkbox" name="works">10+
+        </div>
+
+        <input type="submit" value="Отправить форму">
+        <br>
+        <button type="submit">Отправить форму</button>
+    </form>
+</body>
+</html>
