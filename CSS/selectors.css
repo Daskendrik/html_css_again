@@ -1,3 +1,43 @@
 h3 {
     color: red;
 }
+/* обращение ко всем элементам */
+* {
+    
+}
+
+/* обращение по тегу */
+body { 
+    background: #eee;
+}
+
+/* обращение по классу */
+.card {
+    padding: 10px;
+    background: #fff;
+    /* margin-bottom: 10px; */
+}
+
+/* обращение по id */
+#header {
+    background: #ddd;
+    padding: 10px;
+}
+
+/* обращение от родителя к дочернему */
+.card p {
+    font-size: 14px;
+}
+
+/* множественный селектор */
+#header, .card {
+    margin-bottom: 10px;
+}
+
+.css {
+    color: green;
+}
+
+.html {
+    color: blue;
+}
