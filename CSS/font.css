@@ -1,0 +1,30 @@
+/* импорт шрифта */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    /* стиль шрифта. Если одного нет, то используется другой */
+    /* font-family: Verdana, Georgia, sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    /* высота линии */
+    line-height: 1.6em;
+    /* толщина */
+    font-weight: normal;
+    /* декорация текста (подчеркивание, зачеркивание) */
+    /* text-decoration: line-through; */
+    /* стиль и прочее */
+    /* font-style: italic; */
+    /* растояние между символами */
+    /* letter-spacing: 2px; */
+    /* растояние между словами */
+    /* word-spacing: 20px; */
+
+    /* сокращение свойств */
+    /* font: normal 20px 'Roboto', sans-serif; */
+}
+
+.css p {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
