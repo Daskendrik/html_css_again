@@ -1,0 +1,19 @@
+.color-1 {
+    color: slateblue;
+}
+/* КрасныйЗеленыйСиний */
+.color-2 {
+    color: #7ac347;
+}
+
+.color-3 {
+    color: #000;
+}
+
+.color-4 {
+    color: rgb(22, 69, 226);
+}
+
+.color-5 {
+    color: rgba(47, 255, 40, 0.6);
+}

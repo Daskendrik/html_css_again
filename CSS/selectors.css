@@ -35,9 +35,11 @@ body {
 }
 
 .css {
-    color: green;
+    background: #008acb;
+    color: rgb(255, 255, 255);
 }
 
 .html {
-    color: blue;
+    background: #f26527;
+    color: rgb(255, 255, 255);
 }
