@@ -1,0 +1,17 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #eee3cb;
+    margin: 10%;
+}
+
+.header{
+    text-align: center;
+}
+
+.main_content p{
+    font-size: 20px;
+}
+
+.main_content p span{
+    text-decoration: underline;
+}
