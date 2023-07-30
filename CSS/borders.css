@@ -1,0 +1,23 @@
+.border-1 {
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: blue; */
+    border: 2px solid green;
+    border-radius: 10px;
+}
+
+.border-2 {
+    border-bottom: 2px solid red;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-top: 2px solid rgb(80, 30, 197);
+    border-right: 2px solid rgb(9, 233, 28);
+    border-left: 2px solid rgb(255, 0, 221);
+}
+
+.border-3 {
+    border-left: 6px solid red;
+    background: lightsalmon;
+    padding-left: 10px;
+    color: #fff;
+}
