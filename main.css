@@ -58,3 +58,24 @@ a:hover {
     border: 1px solid black;
     padding: 5px;
 }
+
+table {
+    width: 100%;
+}
+
+table thead {
+    border-bottom: 2px solid rgb(255, 0, 0);
+}
+
+table td{
+    text-align: center;
+    width: 30%;
+}
+
+table thead tr:nth-child(odd){
+    background: #ffffff;
+}
+
+table tr:nth-child(odd){
+    background: #96e8f3;
+}

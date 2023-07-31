@@ -1,13 +1,13 @@
 a {
     color: darkgreen;
     text-decoration: none;
-    transition: all .2s;
+    /* transition: all .2s; */
 }
 
 /* когда наводим */
 a:hover {
  color: orange;
- font-size: 24px;
+ /* font-size: 24px; */
 }
 
 /* только для ссылок */
