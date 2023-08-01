@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=" media.css">
+    <title>Document</title>
+    <style>
+        .container {
+            max-width: 750px;
+            padding-top: 20px;
+            margin: auto;
+        }
+
+        .box{
+            padding: 20px;
+            background: #eee;
+            font-size: 2rem;
+        }
+         @media (max-width:900px) { /*Если ширина экрана меньше 500 */
+            .box {
+                font-size: 1.5rem;
+                padding: 10px;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            Урок про медию
+        </div>
+    </div>
+</body>
+</html>
